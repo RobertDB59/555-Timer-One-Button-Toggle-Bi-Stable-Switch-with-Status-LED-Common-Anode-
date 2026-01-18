@@ -74,15 +74,4 @@ The 555 output controls a MOSFET that switches the programming ground:
 555 LOW  → MOSFET OFF → GND_PROG floating (Safe to insert chips, Blue LED)
 ***
 
-## Repository Structure
-***
-555-one-button-toggle/\
-├── schematics/\
-│   ├── 555-toggle-circuit.jpg       # schematic\
-│   ├── 555-toggle-circuit.pdf       # PDF schematic\
-│   └── pcb-integration.jpg          # PCB integration screenshot\
-├── photos/\
-│   └── breadboardBuild.jpg          # LED toggle demonstration\
-└── README.md                        # This file
-***
 **Built and verified on the bench before PCB commitment. Sometimes the simplest solution emerges from understanding component limitations rather than fighting them.**
