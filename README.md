@@ -70,7 +70,7 @@ The 10kΩ resistor and 100nF capacitor on pin 4 (RESET) create a 1ms delay durin
 ## MOSFET Ground Switching
 The 555 output controls a MOSFET that switches the programming ground:
 ***
-555 HIGH → MOSFET ON → GND_PROG = GND (Programming enabled, Red LED)
+555 HIGH → MOSFET ON → GND_PROG = GND (Programming enabled, Red LED)\
 555 LOW  → MOSFET OFF → GND_PROG floating (Safe to insert chips, Blue LED)
 ***
 
