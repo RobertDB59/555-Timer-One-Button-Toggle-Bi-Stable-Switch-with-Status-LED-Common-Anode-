@@ -74,4 +74,7 @@ The 555 output controls a MOSFET that switches the programming ground:
 555 LOW  → MOSFET OFF → GND_PROG floating (Safe to insert chips, Blue LED)
 ***
 
+## Youtube video
+**https://www.youtube.com/watch?v=0-jJqgY_BRs**
+
 **Built and verified on the bench before PCB commitment. Sometimes the simplest solution emerges from understanding component limitations rather than fighting them.**
